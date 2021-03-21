@@ -1,0 +1,19 @@
+$pyNastran: version=msc
+$pyNastran: punch=True
+$pyNastran: encoding=utf-8
+$pyNastran: nnodes=5
+$pyNastran: nelements=5
+$NODES
+GRID    99000001         .513061 1.49287 .811943
+GRID    99000002         .523257 .859242 .831558
+GRID    99000003         .511411 .490321 .480616
+GRID    99000004         .499951 1.45859 1.49985
+GRID    99000005         .486939 1.49287 2.18777
+$ELEMENTS
+CBUSH   990000019900000099000001       1                               0
+CBUSH   990000029900000099000002       2                               0
+CBUSH   990000039900000099000003       3                               0
+CBUSH   990000049900000099000004       4                               0
+CBUSH   990000059900000099000005       5                               0
+$PROPERTIES
+PBUSH   99000000       K    1.+8    1.+8    1.+8   1.+12   1.+12   1.+12
